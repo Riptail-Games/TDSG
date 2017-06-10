@@ -13,4 +13,10 @@ export const App = StackNavigator({
             header: null,
         },
     },
+    Game: {
+        screen: Game,
+        navigationOptions: {
+            header: null,
+        },
+    },
 });
